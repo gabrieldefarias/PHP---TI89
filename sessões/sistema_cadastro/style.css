@@ -1,0 +1,36 @@
+body{background-color: #f0f0f0;}
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+.card{
+    box-shadow: 1px 11px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.titulo{
+    color: #de3545;
+    text-align: center;
+}
+.car-top{text-align: center;}
+.card-grup{margin-bottom: 10px;}
+.card-grup>label{
+    width: 100%;
+    color: rgb(75 75 75);
+    display: block;
+}
+.card-grup>input{
+    border-radius: 5px;
+    height: 25px;
+    padding: 5px;
+    width: 100%;
+}
+.card-grup>button{
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    background-color: red;
+}
