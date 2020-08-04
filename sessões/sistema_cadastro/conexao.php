@@ -5,5 +5,5 @@
     $banco ='db_cadastro';
 
     $conn = mysqli_connect($servidor,$username,$senha,$banco);
-    if(!$conn){echo "Erro, não conectado";}
+    if(!$conn){echo "Erro ao conectado";}
 ?>
