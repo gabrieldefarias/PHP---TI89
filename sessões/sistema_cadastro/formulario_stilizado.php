@@ -10,15 +10,19 @@
     <form action="" method= "POST" class="form">
         <div id="cad-top" class="card">
             <h2 class="titulo">Painel de Controle</h2>
-            <p class="titulo">Gerencia Negocio</p>
+            <p class="titulo">Gerenciador de Negocios</p>
             <div id="cad-grup" class="card-grup">
-                <label for="">Usuario</label><br>
-                <input type="text" name="usuario"><br>
-                <label for="">Senha</label><br>
-                <input type="text" name="senha"><br><br>
+                <label for="">Usuário:</label>
+                <input type="text" name="usuario"><br><br>
+                <label for="">Senha:</label>
+                <input type="password" name="senha" id="senha"><br><br>
+                <label for="">
+                <input type="checkbox" onclick="MostrarOcultarSenha()">Lembre-me
+                </label><br>
                 <button type="submit">Acessar</button>
             </div>
         </div>
     </form>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
