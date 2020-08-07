@@ -1,5 +1,5 @@
 <?php
-    header('content-type:text/html;charset=utf-8');    
+    header('content-type:text/html;charset=utf-8');   
     /*
         Toda função possui um nome, seguido de um par de parenteses,
         e dentro do parenteses pode possuir parametros ou srgumentos e sempre começa 
