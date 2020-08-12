@@ -25,6 +25,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar arquivos</title>
+    <style>
+        table{
+            margin-left: 450px; margin-top: 50px; color: blue; background-color: white;
+            padding: 10px; border: 1px solid; border-color: black;
+        }
+        body{background-color: #e3e3e3;}
+    </style>
 </head>
 <body>
     <form action="edit.php" method="post">

@@ -43,7 +43,7 @@
                     echo "<td>" .$dados['nome'] ."</td>";
                     echo "<td>" .$dados['dataProduto'] ."</td>";
                     echo "<td> <a href='edit.php?idProduto=$dados[idProduto]'><i class='fa fa-pencil-square-o' aria-hidden='true'></i></a>" ."</td>";
-                    echo "<td> <a href='#'><i class='fa fa-trash' aria-hidden='true'></i></a>" ."</td>";
+                    echo "<td> <a href='delete.php?idProduto=$dados[idProduto]'><i class='fa fa-trash' aria-hidden='true'></i></a>" ."</td>";
                 echo "<tr>";
             }
         ?>

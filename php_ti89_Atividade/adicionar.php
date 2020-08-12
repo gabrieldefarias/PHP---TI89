@@ -32,7 +32,7 @@
                 </tr>
             </table>
         </form><br>
-        <a href="index.php">Tabela de produtos</a><br><br>
+        <a href="index.php">Voltar a tabelas</a><br><br>
     </fieldset>
     <?php
         if(isset($_POST['Submit'])){
