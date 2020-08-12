@@ -17,7 +17,6 @@
     while($dados = mysqli_fetch_array($result)){
         $nome = $dados['nome'];
         $data = $dados['dataProduto'];
-
     }
 ?>
 <!DOCTYPE html>
@@ -40,7 +39,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="hidden" name="idProduto" value=<?php echo $_GET['idProduto']; ?>></td>
+                <td><input type="hidden" name="idProduto" value= <?php echo $_GET['idProduto']; ?>></td>
                 <td><input type="submit" name="update" value="Adicionar"></td>
             </tr>
         </table>

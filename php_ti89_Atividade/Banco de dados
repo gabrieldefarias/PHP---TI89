@@ -1,4 +1,4 @@
-Informações sobr o MySQL Workbench
+Informações sobre o MySQL Workbench
 
 create database db_produto;
 use db_produto;
