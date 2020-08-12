@@ -4,7 +4,7 @@
         $id = $_POST['idProduto'];
         $nome = $_POST['txtnome'];
         $data = $_POST['txtdata'];
-        $result = mysqli_query($conn,"UPDATE produto set nome='$nome',dataProduto='$data'");
+        $result = mysqli_query($conn,"UPDATE produto set nome='$nome',dataProduto='$data' where idProduto=$id");
         if($result){
             header('location:index.php');
         }

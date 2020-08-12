@@ -1,11 +1,11 @@
 <?php
     /*
         criar um array de páginas,indice se inicia com valor 0
-        $paginas = ['home','sobre','contato'];
-                        0       1       2
-                        key(chave) passar valores
+        $paginas=['home','sobre','contato'];
+                    0       1       2
+                    key(chave) passar valores
     */
-   $paginas = ['home'=>'Estou na página home','sobre'=>'Página Sobre!!!!','contato'=>'<input type="text" placeholder="Digite seu nome"/>','FAQ'=>'Perguntas frequentes','Fale conosco'=>'Entre em contato conosco'];
+    $paginas = ['home'=>'Estou na página home','sobre'=>'Página Sobre!!!!','contato'=>'<input type="text" placeholder="Digite seu nome"/>','FAQ'=>'Perguntas frequentes','Fale conosco'=>'Entre em contato conosco'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
