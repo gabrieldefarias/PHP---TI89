@@ -1,0 +1,11 @@
+Informações sobr o MySQL Workbench
+
+create database db_produto;
+use db_produto;
+create table produto(
+	idProduto	int	primary key	auto_increment,
+    nome		varchar(100),
+    dataProduto	varchar(10)
+);
+insert into produto(idProduto,nome,dataProduto) value(null,'Geladeira','19/09/2020');
+select * from produto;
