@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de noticias</title>
     <style>
-        fieldset{
-            width: 300px; margin: 5px auto;
-        }
-        h2{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        fieldset{width: 300px; margin: 5px auto;}
+        h2{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; color: red;}
 
     </style>
 </head>
