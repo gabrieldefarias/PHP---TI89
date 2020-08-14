@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de noticias</title>
+    <title>Página de cadastros</title>
     <style>
         fieldset{width: 300px; margin: 5px auto;}
         h2{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; color: red;}
-
     </style>
-</head>
 <body>
     <fieldset>
         <form action="mensagem.php" method="POST">
             <table>
+                <h3>Preencha os campos abaixo</h3>
                 <tr>
                     <td>Nome:</td>
                     <td><input type="text" name="txt_nome"></td>
@@ -33,7 +32,7 @@
         </form>
     </fieldset>
     <hr>
-    <h2>Lista de comentários</h2>
+    <h2>Lista das mensagens</h2>
     <?php
         header('content-type:text/html;charset=utf-8');
         include_once 'conexao.php';
