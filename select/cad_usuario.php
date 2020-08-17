@@ -17,7 +17,8 @@
             VALUES(null,'$nome_usuario','$email_usuario','$senha_usuario','$niveis_acesso',now())";
         $resultado = mysqli_query($conn,$sql);
         if(mysqli_affected_rows($conn) !=0){
-            header('location: index.php');
+            echo "Cadastrado com sucesso.";
+            //header('location: index.php');
         }else{
             echo "[ERRO] falha ao cadastrar.";
         }
