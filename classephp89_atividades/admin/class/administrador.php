@@ -102,7 +102,5 @@ class Administrador{
         $this->login = $_login;
         $this->senha = $_senha;
     }
-
 }
-
 ?>
