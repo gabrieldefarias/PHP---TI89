@@ -58,7 +58,8 @@
                     ":id"=>$_id,
                     ":nome"=> $_nome,
                     ":situacao"=>$_situacao
-                ));
+                )
+            );
         }
         public function delete(){
             $sql = new SqlSenac();
