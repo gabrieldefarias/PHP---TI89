@@ -6,8 +6,13 @@
     <title>Carrinho de Compras</title>
     <style>
         body{background-color: #e3e3e3;}
-        img{width: 120px; height: 100px; border: 1px solid;}
-        #corpo{border: 1px solid; margin: 0px 100px; background-color: white; padding: 0px 20px;}
+        img{width: 150px; height: 130px; border: 1px solid; margin-right: 10px;}
+        #corpo{border: 1px solid; margin: 0px 200px; background-color: white; padding: 10px 20px;}
+        a{
+            background-color: #e3e3e3; color: black; text-decoration: none; border: 1px solid black; 
+            margin: 0px 30px;
+        }
+        a:hover{background-color: black; color: white;}
     </style>
 </head>
 <body>
@@ -20,8 +25,8 @@
 
             while($ln = mysqli_fetch_assoc($qy)){
                 echo '<h2>'.$ln['nome'].'</h2><br>';
+                echo '<img src="imagem/'.$ln['imagem'].'">';
                 echo 'Preço: R$ ' .number_format($ln['preco'],2);
-                echo '<img src="imagem/'.$ln['imagem'].'"><br>';
                 echo '<a href="carrinho.php?acao=add&id='.$ln['id'].'">Adicionar ao carrinho</a>';
             }
         ?>

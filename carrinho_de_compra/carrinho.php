@@ -46,6 +46,14 @@
     <style>
         table{margin: 0px 100px; border: 1px solid;}
         caption{color: blue;}
+        th{border: 1px solid black; padding: 5px;}
+        tr{border: 1px solid black;}
+        td{border: 1px solid; padding: 5px;}
+        a{
+            text-decoration: none; background-color: #e3e3e3; color: black; border: 1px solid black;
+            padding: 2px;
+        }
+        a:hover{background-color: black; color: white;}
     </style>
 </head>
 <body>
