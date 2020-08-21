@@ -6,11 +6,11 @@
     <title>Carrinho de Compras</title>
     <style>
         body{background-color: #e3e3e3;}
-        img{width: 150px; height: 130px; border: 1px solid; margin-right: 10px;}
+        img{width: 160px; height: 130px; border: 1px solid; margin: 0px 10px;}
         #corpo{border: 1px solid; margin: 0px 200px; background-color: white; padding: 10px 20px;}
         a{
             background-color: #e3e3e3; color: black; text-decoration: none; border: 1px solid black; 
-            margin: 0px 30px;
+            margin: 0px 30px; padding: 5px;
         }
         a:hover{background-color: black; color: white;}
     </style>
