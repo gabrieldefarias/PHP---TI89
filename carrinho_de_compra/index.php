@@ -6,7 +6,8 @@
     <title>Carrinho de Compras</title>
     <style>
         body{background-color: #e3e3e3;}
-        img{width: 160px; height: 130px; border: 1px solid; margin: 0px 10px;}
+        h1{text-align: center; color: blue;}
+        img{width: 170px; height: 130px; border: 1px solid; margin: 0px 10px;}
         #corpo{border: 1px solid; margin: 0px 200px; background-color: white; padding: 10px 20px;}
         a{
             background-color: #e3e3e3; color: black; text-decoration: none; border: 1px solid black; 
@@ -20,6 +21,7 @@
         <?php
             include_once 'conexao.php';
             header('content-type:text/html;charset=utf-8');
+            echo "<h1>Carrinho de compras<br>Faça as suas compras conosco</h1>";
             $sql = "SELECT * FROM produtos";
             $qy = mysqli_query($cnn,$sql);
 
